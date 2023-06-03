@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.RecordNew.RecordNewTransferFragment"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.5"
+        android:padding="30dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="0.05"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_get_transfer_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Amount: "
+                android:layout_weight="0.1"
+                tools:ignore="HardcodedText"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/txt_RM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="RM "
+                tools:ignore="HardcodedText"
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+            <EditText
+                android:id="@+id/et_transfer_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint=" 00.00"
+                android:layout_weight="3"
+                tools:ignore="HardcodedText"
+                android:background="@drawable/myshape"
+                android:backgroundTint="#d0e0df"
+                android:padding="10dp"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="0.05"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_get_transfer_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="From: "
+                android:layout_weight="0.1"
+                tools:ignore="HardcodedText"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.8"/>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/et_transfer_from"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/myshape"
+                    android:backgroundTint="#d0e0df"
+                    android:padding="10dp"
+                    android:focusable="false"
+                    tools:ignore="MissingConstraints" />
+                <Button
+                    android:id="@+id/btn_transfer_from"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_touch"
+                    android:backgroundTint="#00000000"
+                    tools:ignore="MissingConstraints" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="0.05"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_get_transfer_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="To: "
+                android:layout_weight="0.1"
+                tools:ignore="HardcodedText"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.2"/>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/et_transfer_to"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/myshape"
+                    android:backgroundTint="#d0e0df"
+                    android:padding="10dp"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/btn_transfer_to"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_touch"
+                    android:backgroundTint="#00000000"
+                    android:focusable="false"
+                    tools:ignore="MissingConstraints" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="0.05"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_get_transfer_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Date: "
+                android:layout_weight="0.1"
+                tools:ignore="HardcodedText"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/et_transfer_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:layout_weight="3"
+                android:cursorVisible="false"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:background="@drawable/myshape"
+                android:backgroundTint="#d0e0df"
+                android:padding="10dp"
+                android:hint=" dd-mm-yyyy"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="0.05"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_get_transfer_note"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Note: "
+                tools:ignore="HardcodedText"
+                android:layout_weight="0.1"
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"/>
+            <EditText
+                android:id="@+id/et_transfer_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:background="@drawable/myshape"
+                android:backgroundTint="#d0e0df"
+                android:padding="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:padding="30dp"
+        >
+        <Button
+            android:id="@+id/btn_transfer_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#FC766A"
+            android:text="SAVE"
+            android:layout_marginHorizontal="20dp"
+            android:textColor="@color/white"
+            app:cornerRadius="20dp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvFooter"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#fabc04"
+        android:gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title2"
+        android:layout_alignBottom="@+id/title2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-39dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="2dp"
+        android:shadowColor="#7F000000"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="3"
+        android:text="Money"
+        android:textColor="#DBB04A"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="213dp"
+        android:bottomLeftRadius="15dp"
+        android:bottomRightRadius="15dp"
+        android:shadowColor="#7F000000"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="3"
+        android:text="Grip"
+        android:textColor="#b1b8b5"
+        android:textSize="30dp"
+        android:topLeftRadius="15dp"
+        android:topRightRadius="15dp" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/user" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginRight="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="81dp">
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-thin"
+                android:text="Email:"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtEmail"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="11dp"
+                android:fontFamily="sans-serif-thin"
+                android:text="Password:"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etLoginEmail"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/txtEmail"
+                android:layout_alignBottom="@+id/txtEmail"
+                android:layout_marginStart="51dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:layout_toRightOf="@+id/txtEmail"
+                android:background="@drawable/myshape"
+                android:backgroundTint="#48808888"
+                android:inputType="text"
+
+                android:maxLines="1"
+                app:elevation="100dp" />
+
+            <EditText
+                android:id="@+id/etLoginPassword"
+                android:layout_width="251dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etLoginEmail"
+                android:layout_alignStart="@+id/txtEmail"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/txtPass"
+                android:background="@drawable/myshape"
+                android:backgroundTint="#48808888"
+                app:elevation="100dp"
+                android:inputType="textPassword"
+                android:maxLines="1" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvForgotYourPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cvLogin"
+        android:layout_centerHorizontal="true"
+        android:text="Forgot Your Password?"
+        android:textColor="#FC766A" />
+
+    <Button
+        android:id="@+id/btnMiddle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvForgotYourPassword"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text=""
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvForgotYourPassword"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@+id/btnMiddle"
+        android:backgroundTint="#FC766A"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnOtherLogin"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvForgotYourPassword"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toLeftOf="@+id/btnMiddle"
+        android:backgroundTint="#FFFFFF"
+        android:text="Other login method"
+        android:textColor="#FC766A"
+        android:textSize="10dp" />
+
+</RelativeLayout>

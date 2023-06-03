@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Category.AddCategory">
+
+    <TextView
+        android:id="@+id/txt_get_category_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Category name: "
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="50dp"
+        android:textSize="18dp" />
+
+
+    <EditText
+        android:id="@+id/et_category_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_get_category_name"
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/rounded_edit_text"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/txt_get_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_category_name"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="Description: "
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_get_description"
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/rounded_edit_text"
+        android:inputType="text"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/txt_get_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_description"
+        android:layout_marginHorizontal="50dp"
+        android:text="Icon: "
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/iconRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_get_icon"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        tools:listitem="@layout/list_category" />
+
+    <TextView
+        android:id="@+id/txt_get_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconRecyclerView"
+        android:layout_marginHorizontal="50dp"
+        android:text="Color: "
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/colorRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_get_color"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        tools:listitem="@layout/list_color" />
+    <Button
+        android:id="@+id/btn_category_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/colorRecyclerView"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#FC766A"/>
+</RelativeLayout>

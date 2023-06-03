@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="title_height">80dp</dimen>
+
+    <dimen name="text_size_L">20sp</dimen>
+    <dimen name="text_size_XM">18sp</dimen>
+    <dimen name="text_size_M">16sp</dimen>
+    <dimen name="text_size_S">12sp</dimen>
+
+    <dimen name="large_margin_extra">30dp</dimen>
+    <dimen name="large_margin">20dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+    <dimen name="normal_margin">12dp</dimen>
+    <dimen name="small_margin">6dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout-land/activity_transfer_record.xml" value="0.1" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout-land/expenses_record.xml" value="0.12566137566137567" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout-land/income_record.xml" value="0.1" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/account_card_layout.xml" value="0.234375" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/activity_main.xml" value="0.3619791666666667" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/activity_record_new.xml" value="0.14479166666666668" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/activity_register_email.xml" value="0.146875" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/activity_transfer_record.xml" value="0.11458333333333333" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/blank_fragment.xml" value="0.234375" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/expenses_record.xml" value="0.264" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/fragment_blank.xml" value="0.2203125" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/fragment_expenses_day.xml" value="0.1" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/fragment_home_expenses.xml" value="0.15104166666666666" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/fragment_income_day.xml" value="0.2" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/fragment_record_new_expenses.xml" value="0.4" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/fragment_record_new_income.xml" value="0.4" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/fragment_record_new_transfer.xml" value="0.152" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/fragment_scrolling.xml" value="0.234375" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/income_record.xml" value="0.11458333333333333" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/list_tile.xml" value="0.4" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/nav_dashboard.xml" value="0.15260416666666668" />
+        <entry key="..\:/Grip-Money-apps/app/src/main/res/layout/transfer_card.xml" value="0.264" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/account_card_layout.xml" value="0.1796875" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/activity_add_debt.xml" value="0.1796875" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/activity_add_debt2.xml" value="0.14114583333333333" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/activity_debt_page.xml" value="0.14114583333333333" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/activity_record_new.xml" value="0.1796875" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/activity_view_acc_group.xml" value="0.1796875" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/expenses_record.xml" value="0.1796875" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/fragment_acc_group.xml" value="0.1796875" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/fragment_add_debt.xml" value="0.1796875" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/fragment_add_lend.xml" value="0.165625" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/fragment_debt.xml" value="0.14114583333333333" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/fragment_debt_management.xml" value="0.22" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/fragment_record_new_expenses.xml" value="0.1796875" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/list_color.xml" value="0.1796875" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/list_created_category.xml" value="0.1796875" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/list_debt.xml" value="0.1" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/list_debt_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Learning/AndroidApp/AD-GripMoney-testing/app/src/main/res/layout/list_tile.xml" value="0.1796875" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/drawable/atest.xml" value="0.124" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/drawable/bg_touch.xml" value="0.1325" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/drawable/cate_regular_boder.xml" value="0.113" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/drawable/cate_select_border.xml" value="0.124" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/drawable/cate_transparent.xml" value="0.1215" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/drawable/ic_baseline_card_giftcard_24.xml" value="0.1305" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/drawable/ic_baseline_emoji_food_beverage_24.xml" value="0.1305" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/drawable/ic_baseline_emoji_transportation_24.xml" value="0.1305" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/drawable/ic_baseline_vacation_active_24.xml" value="0.125" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/drawable/rectangle.xml" value="0.1325" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/drawable/rounded_edit_text.xml" value="0.1305" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/Footer.xml" value="0.10625" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/Header.xml" value="0.10625" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/account_card_layout.xml" value="0.1644021739130435" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/activity_add_acc_group.xml" value="0.1375" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/activity_add_category.xml" value="0.146875" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/activity_record_new.xml" value="0.1796875" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/activity_transfer_record.xml" value="0.1046875" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/activity_view_acc_group.xml" value="0.1" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/activity_view_category.xml" value="0.1" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/category_recyclerview_card.xml" value="0.1693840579710145" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/footer.xml" value="0.1796875" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/fragment_acc_group.xml" value="0.16032608695652173" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/fragment_category.xml" value="0.22" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/fragment_category_expense.xml" value="0.1644021739130435" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/fragment_category_income.xml" value="0.11730072463768115" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/fragment_debt_management.xml" value="0.1796875" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/fragment_expenses_year.xml" value="0.15052083333333333" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/fragment_help.xml" value="0.15052083333333333" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/fragment_home_transfer.xml" value="0.11730072463768115" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/fragment_record_new_expenses.xml" value="0.14666666666666667" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/fragment_record_new_income.xml" value="0.16666666666666666" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/fragment_record_new_transfer.xml" value="0.22" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/header.xml" value="0.1" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/income_record.xml" value="0.14791666666666667" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/list_category.xml" value="0.22" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/list_color.xml" value="0.22" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/list_created_category.xml" value="0.6" />
+        <entry key="..\:/Learning/AndroidApp/GripMoney/app/src/main/res/layout/list_tile.xml" value="0.17889492753623187" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/drawable/ic_baseline_edit_note_24.xml" value="0.15208333333333332" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/drawable/input_shape.xml" value="0.2755208333333333" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/drawable/myshape.xml" value="0.2755208333333333" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/activity_login_choice.xml" value="0.259375" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/activity_login_email.xml" value="0.259375" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/activity_main.xml" value="0.13385416666666666" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/activity_setting_alert_set_pin.xml" value="0.176" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/activity_setting_change_pass.xml" value="0.22456140350877193" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/activity_setting_change_pin.xml" value="0.259375" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/activity_setting_set_pin.xml" value="0.1" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/activity_setting_user_profile.xml" value="0.4" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/activity_test.xml" value="0.264" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/activity_test2.xml" value="0.16983695652173914" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/activity_view_acc_group.xml" value="0.259375" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/fragment_blank.xml" value="0.2453125" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/fragment_category.xml" value="0.1359375" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/fragment_setting.xml" value="0.1" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/fragment_test.xml" value="0.12447916666666667" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/nav_dashboard.xml" value="0.259375" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/setting_custom_dialog.xml" value="0.17395833333333333" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/setting_dropdown_gender.xml" value="0.12228260869565218" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/setting_dropdown_gender_adapter.xml" value="0.2" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/layout/setting_edit_profile.xml" value="0.264" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/AD-GripMoney/app/src/main/res/menu/nav_menu.xml" value="0.1359375" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/GripMoney/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/GripMoney/app/src/main/res/layout/front_page.xml" value="0.1" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/GripMoney/app/src/main/res/layout/login_choice.xml" value="0.1" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/GripMoney/app/src/main/res/layout/login_email.xml" value="0.1" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/GripMoney/app/src/main/res/layout/register_email.xml" value="0.2" />
+        <entry key="..\:/UTM SEM 5/SECJ3104-01 APPLICATION DEVELOPMENT/PROJECT/GripMoney/app/src/main/res/layout/signin_google.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/AD-GripMoney/app/src/main/res/layout/activity_premium_pay.xml" value="0.11775362318840579" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AD-GripMoney/app/src/main/res/layout/activity_login_choice.xml" value="0.335243553008596" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AD-GripMoney/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AD-GripMoney/app/src/main/res/layout/activity_register_email.xml" value="0.358695652173913" />
+        <entry key="..\:/learning/Android_app/AD-GripMoney/app/src/main/res/layout/activity_login_choice.xml" value="0.2" />
+        <entry key="..\:/learning/Android_app/AD-GripMoney/app/src/main/res/layout/activity_login_email.xml" value="0.264" />
+        <entry key="..\:/learning/Android_app/AD-GripMoney/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/learning/Android_app/AD-GripMoney/app/src/main/res/layout/activity_register_email.xml" value="0.264" />
+        <entry key="..\:/learning/Android_app/AD-GripMoney/app/src/main/res/layout/login_choice1.xml" value="0.1793478260869565" />
+        <entry key="..\:/learning/Android_app/AD-GripMoney/app/src/main/res/layout/login_email1.xml" value="0.1793478260869565" />
+        <entry key="..\:/learning/Android_app/AD-GripMoney/app/src/main/res/layout/register_email1.xml" value="0.1793478260869565" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

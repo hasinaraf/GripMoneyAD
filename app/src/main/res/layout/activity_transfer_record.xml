@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update / Delete Transfer Record"
+        android:layout_weight="0.1"
+        tools:ignore="HardcodedText"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.1"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_get_transfer_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Amount: "
+            tools:ignore="HardcodedText"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txt_RM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="RM "
+            tools:ignore="HardcodedText"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/et_transfer_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint=" 00.00"
+            tools:ignore="HardcodedText"
+            android:background="@drawable/myshape"
+            android:backgroundTint="#d0e0df"
+            android:padding="10dp"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.1"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_get_transfer_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="From: "
+            tools:ignore="HardcodedText"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/et_transfer_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/myshape"
+                android:backgroundTint="#d0e0df"
+                android:padding="10dp"
+                android:focusable="false"
+                tools:ignore="MissingConstraints" />
+            <Button
+                android:id="@+id/btn_transfer_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_touch"
+                android:backgroundTint="#00000000"
+                tools:ignore="MissingConstraints" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.1"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_get_transfer_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="To: "
+            tools:ignore="HardcodedText"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/et_transfer_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/myshape"
+                android:backgroundTint="#d0e0df"
+                android:padding="10dp"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/btn_transfer_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_touch"
+                android:backgroundTint="#00000000"
+                android:focusable="false"
+                tools:ignore="MissingConstraints" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.1"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_get_transfer_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Date: "
+            tools:ignore="HardcodedText"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_transfer_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:layout_gravity="center"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:background="@drawable/myshape"
+            android:backgroundTint="#d0e0df"
+            android:padding="10dp"
+            android:hint=" dd-mm-yyyy"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.1"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_get_transfer_note"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Note: "
+            tools:ignore="HardcodedText"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/et_transfer_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/myshape"
+            android:backgroundTint="#d0e0df"
+            android:padding="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_transfer_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:backgroundTint="@color/yellow"
+            android:text="Update"
+            tools:ignore="HardcodedText"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/btn_transfer_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="@color/orange"
+            android:text="Delete"
+            tools:ignore="HardcodedText"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>

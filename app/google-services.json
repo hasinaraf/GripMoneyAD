@@ -1,0 +1,96 @@
+{
+  "project_info": {
+    "project_number": "456451012411",
+    "firebase_url": "https://ad-gripmoney-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ad-gripmoney",
+    "storage_bucket": "ad-gripmoney.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456451012411:android:f7feee27e34c07ff15291e",
+        "android_client_info": {
+          "package_name": "com.example.gripmoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456451012411-a1ntff67lnequv40ljq1jdq238fj81h5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gripmoney",
+            "certificate_hash": "bb594b0b38993694a069bba749ba6cacdb7bb0d6"
+          }
+        },
+        {
+          "client_id": "456451012411-avrj5qjdjav6k2f6ffr5f4191vfbsdm7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gripmoney",
+            "certificate_hash": "07acb569a19c5769696c1c00dcc08c5d8969f5a0"
+          }
+        },
+        {
+          "client_id": "456451012411-b7v2cdrdevtigm6vk0qc8tj2123cgigg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gripmoney",
+            "certificate_hash": "6aac9b32136dfc5e07f53b4a7bf5ec71721a60b0"
+          }
+        },
+        {
+          "client_id": "456451012411-c7vllfrfu03726u3d0toco89q04806tf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gripmoney",
+            "certificate_hash": "bc04abb3a0d3c4c467f153d62a85a03851db752f"
+          }
+        },
+        {
+          "client_id": "456451012411-kak4ni1g1r9l06cjidgdtid1ln7llkg5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gripmoney",
+            "certificate_hash": "c08a8b592c40c770c74837d61218048c75ed009f"
+          }
+        },
+        {
+          "client_id": "456451012411-l6d0cafarhi9c60efi0nqi1gbhvj02tg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gripmoney",
+            "certificate_hash": "19c21c42a9af2a2c2e57426b1bf71a0c51b7d441"
+          }
+        },
+        {
+          "client_id": "456451012411-sb91ikh59o13g45j7mfkj2bl1oq171t7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gripmoney",
+            "certificate_hash": "b866f75db8a942535f5a83ecb99e465f3df4a012"
+          }
+        },
+        {
+          "client_id": "456451012411-lcd6upcckd6l1tnhieol83mikeitgn56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEyz5o_nxWaFOxv_gCXE0ejadoMkp0a9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456451012411-h75o35vmhp46pscqrf7abol3f1c852qd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

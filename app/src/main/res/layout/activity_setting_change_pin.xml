@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings.SettingChangePass">
+
+    <ImageView
+        android:id="@+id/subTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#d9D9D9"
+        android:contentDescription="@string/footer"
+        android:elevation="30dp"
+        android:src="@drawable/rectangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvChgPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Change Pin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:translationZ="90dp" />
+
+    <TextView
+        android:id="@+id/tvOldPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvChgPin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Old Pin"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/etOPin"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvOldPin"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/input_shape"
+        android:backgroundTint="#749FC2BB"
+        android:inputType="numberPassword"
+        android:maxLength="6" />
+
+    <TextView
+        android:id="@+id/tvNewPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etOPin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="New Pin"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/etNPin"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvNewPin"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/input_shape"
+        android:backgroundTint="#FFBE00"
+        android:inputType="numberPassword"
+        android:maxLength="6" />
+
+    <TextView
+        android:id="@+id/tvMention"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNPin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Please enter a new strong password consists of 8-20 alphanumberic characters"
+        android:textColor="@color/lightgrey"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/tvCNPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNPin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Confirm New Pin"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/etCNPin"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvCNPin"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/input_shape"
+        android:backgroundTint="#FFBE00"
+        android:inputType="numberPassword"
+        android:maxLength="6" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etCNPin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#FC766A"
+        android:text="Save" />
+
+</RelativeLayout>
